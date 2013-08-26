@@ -27,19 +27,19 @@
 // Scaffolding
 // -------------------------
 
-@body-bg:               background;
-@text-color:            text-color;
+@body-bg:               #fff;
+@text-color:            @gray-dark;
 
 // Links
 // -------------------------
 
-@link-color:            brand-primary;
-@link-hover-color:      link-hover-color;
+@link-color:            @brand-primary;
+@link-hover-color:      darken(@link-color, 15%);
 
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  font-family-sans-serif;
+@font-family-sans-serif:  'Cousine', sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
@@ -112,7 +112,7 @@
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
-@btn-primary-border:             darken(@btn-success-bg, 5%);
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
